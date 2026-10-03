@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+config.json
+.env
+*.pdf
+*.csv
+reporte_*.json
+_cap_*.png
+.venv/

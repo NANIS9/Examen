@@ -1,0 +1,87 @@
+{
+  "total_correos": 32,
+  "modelo": "llama3.2",
+  "resultados": {
+    "reglas": {
+      "metodo": "reglas",
+      "n": 32,
+      "fallos_llm": 0,
+      "exactitud_categoria": 0.969,
+      "exactitud_prioridad": 0.875,
+      "latencia_promedio_ms": 0.1,
+      "matriz_confusion": {
+        "materiales_peligrosos": {
+          "materiales_peligrosos": 6,
+          "sobrepeso": 0,
+          "acceso_no_autorizado": 0,
+          "falla_hardware": 0,
+          "falla_software": 0,
+          "somnolencia_conductor": 0,
+          "otro": 0
+        },
+        "sobrepeso": {
+          "materiales_peligrosos": 0,
+          "sobrepeso": 4,
+          "acceso_no_autorizado": 0,
+          "falla_hardware": 0,
+          "falla_software": 0,
+          "somnolencia_conductor": 0,
+          "otro": 0
+        },
+        "acceso_no_autorizado": {
+          "materiales_peligrosos": 0,
+          "sobrepeso": 0,
+          "acceso_no_autorizado": 5,
+          "falla_hardware": 0,
+          "falla_software": 0,
+          "somnolencia_conductor": 0,
+          "otro": 0
+        },
+        "falla_hardware": {
+          "materiales_peligrosos": 0,
+          "sobrepeso": 0,
+          "acceso_no_autorizado": 0,
+          "falla_hardware": 5,
+          "falla_software": 0,
+          "somnolencia_conductor": 0,
+          "otro": 0
+        },
+        "falla_software": {
+          "materiales_peligrosos": 0,
+          "sobrepeso": 0,
+          "acceso_no_autorizado": 0,
+          "falla_hardware": 0,
+          "falla_software": 4,
+          "somnolencia_conductor": 0,
+          "otro": 0
+        },
+        "somnolencia_conductor": {
+          "materiales_peligrosos": 0,
+          "sobrepeso": 1,
+          "acceso_no_autorizado": 0,
+          "falla_hardware": 0,
+          "falla_software": 0,
+          "somnolencia_conductor": 3,
+          "otro": 0
+        },
+        "otro": {
+          "materiales_peligrosos": 0,
+          "sobrepeso": 0,
+          "acceso_no_autorizado": 0,
+          "falla_hardware": 0,
+          "falla_software": 0,
+          "somnolencia_conductor": 0,
+          "otro": 4
+        }
+      },
+      "errores": [
+        {
+          "id": 12,
+          "asunto": "Conductor dormido en cabina",
+          "real": "somnolencia_conductor",
+          "predicho": "sobrepeso"
+        }
+      ]
+    }
+  }
+}
